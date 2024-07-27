@@ -1,13 +1,12 @@
+import Logo from "./presentational/Logo";
+
+
 export default function Navbar() {
   return (
     <>
       <div >
         <nav className="py-2.5 flex justify-around items-center drop-shadow-xl bg-white mb-5 ">
-          <span>
-            <h2 className="font-extrabold font-sans text-2xl text-orange-700 ">
-              NEWS ALEART
-            </h2>
-          </span>
+          <Logo/>
           <span className="flex items-center rounded-none gap-x-2 ">
             <div className="rounded-xl border-2 border-sky-200 ">
               <form>

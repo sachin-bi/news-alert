@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0  bg-gray-800">
+      <div className="absolute inset-x-0 bottom-0 bg-white">
         <div className="flex justify-center max-w-5xl flex-col mx-auto">
           <Footer />
         </div>
