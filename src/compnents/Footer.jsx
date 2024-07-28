@@ -3,8 +3,8 @@ import Logo from "./presentational/Logo";
 export default function Footer() {
   return (
     <>
-      <div className=" shadow-lg relative h-32 ">
-        <footer className="text-black">
+      <div className=" relative h-47 pb-7 ">
+        <footer className="text-black flex flex-col space-y-4 ">
           <div className=" flex justify-between content-center py-1.5">
             <span>
               <Logo />
@@ -28,7 +28,6 @@ export default function Footer() {
             </span>
           </div>
           
-          <div>
             <div className="bg-slate-100 flex justify-around my-1 py-1">
               <a href="x">ABOUT US</a>
               <a href="x">CONTACT US</a>
@@ -36,7 +35,6 @@ export default function Footer() {
               <a href="x">ARCHIVES</a>
             </div>
             <div className="text-center my-2">Copyright ©</div>
-          </div>
         </footer>
       </div>
     </>

@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <div >
-        <nav className="py-2.5 flex justify-around items-center drop-shadow-xl bg-white mb-5 ">
+        <nav className="py-2.5 flex justify-around items-center drop-shadow-sm bg-white ">
           <Logo/>
           <span className="flex items-center rounded-none gap-x-2 ">
             <div className="rounded-xl border-2 border-sky-200 ">

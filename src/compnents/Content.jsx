@@ -1,8 +1,14 @@
+import CardNews from "./presentational/CardNews";
+import './Content.css';
+
 export default function Content() {
   return (
     <>
-      <div className="border-4 border-orange-400">content
-
+      <div className="bg-white customShadowContent py-5 pt-10">
+      <CardNews/>
+      <CardNews/>
+      <CardNews/>
+      <CardNews/>
       </div>
     </>
   );
