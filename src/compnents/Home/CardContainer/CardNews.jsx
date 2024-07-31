@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './CardNews.css';
 
 //rafce
@@ -10,12 +11,12 @@ const CardNews = () => {
         </div>
         <div className="grid grid-cols-5 gap-2">
           <div className="  col-span-4 font-medium">
+              <Link to="#">
             <div className="my-2 line-clamp-3 font-semibold">
-              <a href="#">
                 Olympics 2024 Day 2 Live Updates: Harmeet wins Gold in table
                 tennis, shuttler Prannoy loses
-              </a>
             </div>
+              </Link>
             {/* <hr /> */}
             <div className="my-2 line-clamp-2 text-sm font-normal text-gray-600">
               Paris Olympic Day 2 Live Updates: India's ace shuttler HS Pronoy

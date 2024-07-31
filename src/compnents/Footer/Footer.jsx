@@ -1,4 +1,5 @@
 import Logo from "../presentational/Logo";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -31,12 +32,33 @@ export default function Footer() {
               </div>
 
               <div className="bg-slate-100 flex justify-around my-1 py-1">
-                <a href="x">ABOUT US</a>
-                <a href="x">CONTACT US</a>
+                <span>
+                  <NavLink to="/about"
+
+                   className={({isActive})=>`rounded ${isActive ? "font-semibold bg-slate-300" : "font-normal"} px-2`} 
+                   
+                   >ABOUT US</NavLink>
+                </span>
+                <span>
+                  <NavLink to="/contact"
+                  
+                  className={({isActive})=>`rounded ${isActive ? "font-semibold bg-slate-300" : "font-normal"} px-2`} 
+
+                  >CONTACT US</NavLink>
+                </span>
+                <span>
+                  <NavLink>TERMS AND CONDITIONS</NavLink>
+                </span>
+                <span>
+                  <NavLink>ARCHIVES</NavLink>
+                </span>
+
+                {/* <a href="x">CONTACT US</a>
                 <a href="x">TERMS AND CONDITIONS</a>
-                <a href="x">ARCHIVES</a>
+                <a href="x">ARCHIVES</a> */}
               </div>
               <div className="text-center my-2">Copyright ©</div>
+              <div className="text-center font-extralight  my-2">made by - sachinandan</div>
             </footer>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import Logo from "../presentational/Logo";
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faEnvelope, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
@@ -18,6 +19,8 @@ export default function Navbar() {
                 />
                 <button className="outline-none px-2 py-1 hover:text-blue-500 ">
                   <i class="fa-solid fa-magnifying-glass"></i>
+                  {/* <FontAwesomeIcon icon="faEnvelope" /> */}
+
                 </button>
               </form>
             </div>
