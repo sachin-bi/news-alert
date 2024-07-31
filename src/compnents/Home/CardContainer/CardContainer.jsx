@@ -1,5 +1,5 @@
-import CardNews from "./presentational/CardNews";
-import './Content.css';
+import CardNews from "./CardNews";
+import './CardContainer.css';
 
 export default function Content() {
   return (

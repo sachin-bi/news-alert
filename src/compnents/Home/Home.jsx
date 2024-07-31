@@ -1,14 +1,13 @@
-import Content from "./Content";
+import Content from "./CardContainer/CardContainer";
 import "./Home.css";
-import Navbar from "./Navbar";
-import SideBar from "./SideBar";
-import Footer from "./Footer";
+import Navbar from "../NavBar/Navbar";
+import SideBar from "./SideBar/SideBar";
+import Footer from "../Footer/Footer";
 
 export default function Home() {
   return (
     <>
       <div className="fullBody">
-        <Navbar />
         <div className=" flex justify-center max-w-5xl flex-col mx-auto">
           <div className="grid grid-cols-5 gap-4">
             <div className="">
@@ -20,11 +19,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-14  relative inset-x-0 bottom-0 bg-white">
-          <div className="flex justify-center max-w-5xl flex-col mx-auto">
-            <Footer />
-          </div>
-        </div>
+        
       </div>
     </>
   );

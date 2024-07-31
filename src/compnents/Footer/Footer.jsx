@@ -1,10 +1,16 @@
-import Logo from "./presentational/Logo";
+import Logo from "../presentational/Logo";
+
+
 
 export default function Footer() {
   return (
     <>
-      <div className=" relative h-47 pb-7 ">
-        <footer className="text-black flex flex-col space-y-4 ">
+
+<div className="mt-14  relative inset-x-0 bottom-0 bg-white">
+          <div className="flex justify-center max-w-5xl flex-col mx-auto">
+
+      <div className=" px-4 relative h-47 pb-7 ">
+        <footer className=" text-black flex flex-col space-y-4 ">
           <div className=" flex justify-between content-center py-1.5">
             <span>
               <Logo />
@@ -36,6 +42,9 @@ export default function Footer() {
             </div>
             <div className="text-center my-2">Copyright ©</div>
         </footer>
+      </div>
+
+      </div>
       </div>
     </>
   );

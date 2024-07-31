@@ -4,7 +4,7 @@ import './CardNews.css';
 const CardNews = () => {
   return (
     <>
-      <div className="rounded p-3 customShadow mx-6  mb-10">
+      <div className=" box-content rounded p-3 customShadow mx-6  mb-10">
         <div className="my-1 text-sm font-medium text-red-800">
           PARIS OLYMPICS 2024
         </div>
@@ -25,13 +25,13 @@ const CardNews = () => {
             </div>
           </div>
           <div className=" flex justify-center">
-            <span className=""> 2.2 photo</span>{" "}
+            <span className="border w-28 h-28"> 2.2 photo</span>{" "}
           </div>
         </div>
-        <div className="my-2 grid grid-cols-4 gap-32">
-          <button className="">a</button>
-          <button className="">b</button>
-          <button className="">c</button>
+        <div className= " my-2 grid grid-cols-4 gap-0 md:gap-14 ">
+          <button className="border mx-2">a</button>
+          <button className="border mx-2">b</button>
+          <button className="border mx-2">c</button>
         </div>
       </div>
     </>

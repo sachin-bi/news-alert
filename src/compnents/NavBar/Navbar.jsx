@@ -1,11 +1,11 @@
-import Logo from "./presentational/Logo";
+import Logo from "../presentational/Logo";
 
 
 export default function Navbar() {
   return (
     <>
-      <div >
-        <nav className="py-2.5 flex justify-around items-center drop-shadow-sm bg-white ">
+      <div className="drop-shadow-sm">
+        <nav className="py-2.5 flex justify-around items-center drop-shadow-sm bg-white w-1024 ">
           <Logo/>
           <span className="flex items-center rounded-none gap-x-2 ">
             <div className="rounded-xl border-2 border-sky-200 ">
