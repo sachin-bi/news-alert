@@ -11,6 +11,8 @@ import {
 import Home from "./compnents/Home/Home";
 import About from "./compnents/About/About";
 import ContactUs from "./compnents/ContactUs/ContactUs";
+import Login from "./compnents/Login/Login";
+import Signup from "./compnents/Signup/Signup";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +20,8 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<ContactUs />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
     </Route>
   )
 );

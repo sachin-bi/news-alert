@@ -1,13 +1,12 @@
 import Logo from "../presentational/Logo";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faEnvelope, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
       <div className="drop-shadow-sm">
         <nav className="py-2.5 flex justify-around items-center drop-shadow-sm bg-white w-1024 ">
-          <Logo/>
+          <Logo />
           <span className="flex items-center rounded-none gap-x-2 ">
             <div className="rounded-xl border-2 border-sky-200 ">
               <form>
@@ -19,15 +18,22 @@ export default function Navbar() {
                 />
                 <button className="outline-none px-2 py-1 hover:text-blue-500 ">
                   <i class="fa-solid fa-magnifying-glass"></i>
-
                 </button>
               </form>
             </div>
 
             <div>
-              <button className="border rounded-lg bg-green-600 text-white px-2 py-1">
-                Sign In
-              </button>
+              <NavLink to="/login">
+                {/* <button className="border rounded-lg bg-sky-600 text-white px-2 py-1">
+                  Login
+                </button> */}
+                <button
+                  type="submit"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  Login
+                </button>
+              </NavLink>
             </div>
           </span>
         </nav>

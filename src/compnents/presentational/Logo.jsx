@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <Link to="/"> 
       <span>
-        <h2 className="font-extrabold font-sans text-2xl text-red-800 ">
+        <h2 className="font-extrabold font-sans text-3xl text-red-800 ">
           NEWS ALERT
         </h2>
       </span>
