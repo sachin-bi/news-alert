@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './CardNews.css';
 
-//rafce
 const CardNews = () => {
   return (
     <>
@@ -17,7 +16,6 @@ const CardNews = () => {
                 tennis, shuttler Prannoy loses
             </div>
               </Link>
-            {/* <hr /> */}
             <div className="my-2 line-clamp-2 text-sm font-normal text-gray-600">
               Paris Olympic Day 2 Live Updates: India's ace shuttler HS Pronoy
               beat Fabian Roth in his group-stage opener, which only adds

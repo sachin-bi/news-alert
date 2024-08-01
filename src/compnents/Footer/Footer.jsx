@@ -52,10 +52,6 @@ export default function Footer() {
                 <span>
                   <NavLink>ARCHIVES</NavLink>
                 </span>
-
-                {/* <a href="x">CONTACT US</a>
-                <a href="x">TERMS AND CONDITIONS</a>
-                <a href="x">ARCHIVES</a> */}
               </div>
               <div className="text-center my-2">Copyright ©</div>
               <div className="text-center font-extralight  my-2">made by - sachinandan</div>

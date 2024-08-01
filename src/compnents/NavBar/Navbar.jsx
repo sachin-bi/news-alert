@@ -19,7 +19,6 @@ export default function Navbar() {
                 />
                 <button className="outline-none px-2 py-1 hover:text-blue-500 ">
                   <i class="fa-solid fa-magnifying-glass"></i>
-                  {/* <FontAwesomeIcon icon="faEnvelope" /> */}
 
                 </button>
               </form>
